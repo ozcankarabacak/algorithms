@@ -26,3 +26,17 @@ void insertion(int* Array, int length);
 *   None
 */
 void merge(int* Array, int indexLeft, int indexRight);
+
+/*
+* Heap sort
+* Makes changes on reference
+*
+* Complexity = O(nlogn)
+*
+* Inputs:
+*   Integer Array to sort
+*   length of the array
+* Output:
+*   None
+*/
+void heapsort(int* Array, int length);
