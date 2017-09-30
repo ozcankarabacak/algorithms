@@ -40,3 +40,19 @@ void merge(int* Array, int indexLeft, int indexRight);
 *   None
 */
 void heapsort(int* Array, int length);
+
+/*
+* Quick sort
+* Makes changes on reference
+*
+* Complexity = O(nlogn) (Average Case)
+*            = O(n^2) (Worst Case)
+*
+* Inputs:
+*   Integer Array to sort
+*   First
+*   End
+* Output:
+*   None
+*/
+void quicksort(int* Array, int indexLeft, int indexRight);

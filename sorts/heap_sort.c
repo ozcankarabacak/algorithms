@@ -12,6 +12,7 @@
 * Output:
 *   None
 */
+
 void max_heapify(int*, int, int);
 void build_max_heap(int *, int);
 void heapsort(int*, int);
@@ -36,7 +37,6 @@ void max_heapify(int *A,int i, int length){
         A[largest] = tmp;
         max_heapify(A,largest,length);
     }
-    
 }
 
 void build_max_heap(int *A,int length){
